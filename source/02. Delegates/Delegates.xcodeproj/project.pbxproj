@@ -13,6 +13,7 @@
 		049E7B782085B9F500B19F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E7B772085B9F500B19F3B /* Assets.xcassets */; };
 		049E7B7B2085B9F500B19F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E7B792085B9F500B19F3B /* LaunchScreen.storyboard */; };
 		049E7B7E2085B9F500B19F3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E7B7D2085B9F500B19F3B /* main.m */; };
+		049E7B892085C15900B19F3B /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E7B882085C15900B19F3B /* SampleProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		049E7B7A2085B9F500B19F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049E7B7C2085B9F500B19F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049E7B7D2085B9F500B19F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049E7B882085C15900B19F3B /* SampleProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
+		049E7B8A2085C16900B19F3B /* SampleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				049E7B792085B9F500B19F3B /* LaunchScreen.storyboard */,
 				049E7B7C2085B9F500B19F3B /* Info.plist */,
 				049E7B7D2085B9F500B19F3B /* main.m */,
+				049E7B882085C15900B19F3B /* SampleProtocol.m */,
+				049E7B8A2085C16900B19F3B /* SampleProtocol.h */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				049E7B732085B9F500B19F3B /* ViewController.m in Sources */,
 				049E7B7E2085B9F500B19F3B /* main.m in Sources */,
 				049E7B702085B9F500B19F3B /* AppDelegate.m in Sources */,
+				049E7B892085C15900B19F3B /* SampleProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

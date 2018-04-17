@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    SampleProtocol *sampleProtocol = [[SampleProtocol alloc]init];
+    sampleProtocol.delegate = self;
+    [myLabel setText:@"Processing..."];
+    [sampleProtocol startSampleProcess];
 }
 
 
@@ -25,5 +28,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Sample Protocol delegate
+-(void)processCompleted{
+    [myLabel setText:@"Process Completed"];
+}
 
 @end
